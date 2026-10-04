@@ -1,0 +1,11 @@
+{
+  "name": "elearning-platform-root",
+  "version": "1.0.0",
+  "description": "Full-stack E-Learning Platform with React, Node.js, Express, MongoDB, Stripe, Cloudinary",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  }
+}
